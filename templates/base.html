@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+    <meta charset='UTF-8'>
+    <title>Hospital Hope</title>
+    <link rel="stylesheet" href="static/css/index.css">
+</head>
+<body>
+    <nav class="navbar">
+        <p>
+        <a class="navbar-home" href="{{url_for('index')}}">Home</a>
+        -
+        <a class="navbar-git" href="https://github.com/f09f9095/Hospital-Hope">Github</a>
+        </p>
+    </nav>
+    {% block content %}
+
+    {% endblock %}
+</body>

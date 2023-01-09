@@ -1,0 +1,41 @@
+div.center {
+    width: 75%;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+p {
+    color: #C3CEDA;
+}
+h1#title, p#description {
+    color: #C3CEDA;
+}
+h4, ol, ul, label {
+    color: #C3CEDA;
+}
+body {
+    background: #05263B
+}
+form#search-form {
+    border: 1px solid #163B50;
+    border-radius: .5vw;
+    color: #C3CEDA;
+    padding: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+select {
+    background: #05263B;
+    color: #C3CEDA;
+    border: 1px solid #163B50;
+    border-radius: .5vw;
+}
+footer {
+    text-align: center;
+    position: fixed;
+    left: 0px;
+    bottom:15px;
+    height:30px;
+    width:100%;
+}

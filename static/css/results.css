@@ -1,0 +1,27 @@
+p, h4, ol, ul, label {
+    color: #dddddd
+}
+th, td {
+    color: #dddddd;
+    padding-left: .5vw;
+    padding-right: .5vw;
+    padding-top: .2vw;
+    padding-bottom: .2vw;
+}
+h1 {
+    color: #dddddd;
+    text-align: justify;
+}
+body {
+    background: #05263B
+}
+div.chosen-details{
+    color: #dddddd;
+    text-align: center;
+}
+table.results-table {
+    margin-top: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2vw;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+
+{% block content %}
+
+<html>
+    <head>
+        <title>Search results</title>
+        <link rel="stylesheet" href="static/css/results.css">
+    </head>
+    <body>
+        <div class="chosen-details">
+            {{ session['hospital'] | title }}
+        </div>
+        <div>
+            <table border="1" class="results-table">
+                <thead>
+                    <th>Procedure</th>
+                    <th>Base Price</th>
+                    <th>Price - {{ session['insurance']|title }}</th>
+                </thead>
+                {% for result in result_list %}
+                <tr>
+                    <td>{{ result[0] | title }}</td>
+                    <td>${{ result[1] }}</td>
+                    <td>${{ result[2] }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </body>
+</html>
+{% endblock %}
