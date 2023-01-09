@@ -18,5 +18,5 @@ This is unfinished. It works, but chargemasters can vary a lot. See a small exam
 <details>
   <summary>Working example</summary>
 
-  ![Search](https://github.com/f09f9095/Hospital-Hope/raw/master/etc/Search.gif?raw=true)
+  ![Search](https://github.com/f09f9095/Hospital-Hope/blob/main/etc/Search.gif?raw=true)
 </details>
