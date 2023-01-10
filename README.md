@@ -4,7 +4,7 @@ Hospital Hope is a tool for searching through your local hospital's chargemaster
 
 
 ### Note:
-This is unfinished. It works, but chargemasters can vary a lot. See a small example in [screens](https://github.com/f09f9095/Hospital-Hope#screens).
+This is unfinished. It works, but chargemasters can vary a lot so it needs many parsers. See a small working example in [screens](https://github.com/f09f9095/Hospital-Hope#screens).
 
 
 ## To-do:
